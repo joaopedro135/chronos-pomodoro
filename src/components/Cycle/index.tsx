@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 
-export function Cycle() {
+export function Cycles() {
   return (
     <div className={styles.cycles}>
       <span>Ciclos</span>
