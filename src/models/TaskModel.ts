@@ -6,6 +6,6 @@ export type TaskModel = {
   duration: number;
   startDate: number;
   completeDate: number | null; // nulo se interromper a task, e number se a task for completada
-  interrupDate: number | null; // se task interrompida, quando
+  interruptDate: number | null; // se task interrompida, quando
   type: keyof TaskStateModel['config'];
 }
